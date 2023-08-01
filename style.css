@@ -1,0 +1,14 @@
+/* Updated CSS to make the video player smaller and center it */
+.video-player {
+  background-color: #f2f2f2; /* Background color */
+  text-align: center; /* Optional: To center the play button */
+}
+
+/* Optional: To make the video player responsive */
+/* You can adjust the video height to your preference */
+/* For example, keeping a 16:9 aspect ratio: */
+.video-player video {
+  width: 100%;
+  height: auto;
+  display: block; /* Fix for removing extra space */
+}
